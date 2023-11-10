@@ -3,7 +3,8 @@ import '@mantine/core/styles.css'
 import {MantineProvider, ColorSchemeScript } from "@mantine/core";
 import 'mantine-datatable/styles.layer.css';
 import './layout.css';
-import {SearchingAndFilteringExample} from "./SearchingAndFilteringExample.tsx";
+// import {SearchingAndFilteringExample} from "./SearchingAndFilteringExample.tsx";
+import { Gate } from "./Gate.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
       </head>
       <body>
       <MantineProvider>
-        <SearchingAndFilteringExample />
+         <Gate />
+        {/*<SearchingAndFilteringExample />*/}
       </MantineProvider>
       </body>
       </html>
